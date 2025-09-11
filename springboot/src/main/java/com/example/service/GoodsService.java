@@ -100,6 +100,10 @@ public class GoodsService {
         return goodsMapper.selectTop15();
     }
 
+    public List<Goods> selectTop() {
+        return goodsMapper.selectTop();
+    }
+
     public List<Goods> selectByTypeId(Integer id) {
         return goodsMapper.selectByTypeId(id);
     }
@@ -159,17 +163,10 @@ public class GoodsService {
                 .filter(java.util.Objects::nonNull)
                 .collect(Collectors.toCollection(ArrayList::new));
 
-        // 4) 兜底：算法没有产出 -> 随机 15 个
-        if (CollectionUtil.isEmpty(recommendResult)) {
-            return goodsMapper.selectTop15();
-        }
 
-        // 6) 超过 10 个 -> 截断前 10
-        if (recommendResult.size() > 10) {
-            recommendResult = recommendResult.subList(0, 10);
-        }
 
         return recommendResult;
     }
+
 
 }

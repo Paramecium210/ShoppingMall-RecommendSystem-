@@ -43,4 +43,7 @@ public interface GoodsMapper {
 
     @Select("select * from goods where name like concat('%' , #{name} ,'%')")
     List<Goods> selectByName(String name);
+
+    @Select("select * from goods where name like concat('%' ,'tea')")
+    List<Goods> selectTop();
 }

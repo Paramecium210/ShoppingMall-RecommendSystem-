@@ -95,6 +95,12 @@ public class GoodsController {
         return Result.success(list);
     }
 
+    @GetMapping("/selectTop")
+    public Result selectTop(){
+        List<Goods> list = goodsService.selectTop();
+        return Result.success(list);
+    }
+
 
     @GetMapping("/recommend")
     public Result recommend(){

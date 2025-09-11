@@ -23,8 +23,8 @@
             </div>
             <div >
               <el-carousel :interval="4000" type="card" height="400px">
-                <el-carousel-item v-for="item in carousel_top" >
-                  <a href="#" @click="navTo()"><img :src="item" alt="" style="height: 400px; width: 100%; border-radius: 15px"></a>
+                <el-carousel-item v-for="item in topData" >
+                  <a href="#" @click="navTo('/front/detail?id=' + item.id)"><img :src="item.img" alt="" style="height: 400px; width: 100%; border-radius: 15px"></a>
                 </el-carousel-item>
               </el-carousel>
             </div>
@@ -73,10 +73,12 @@ export default {
           require('@/assets/imgs/carousel_top3.jpg'),
       ],
       showText: false,
-      recommendData: []
+      recommendData: [],
+      topData: []
     }
   },
   mounted() {
+    this.loadTop();
     this.loadType();
     this.loadGoods();
     this.loadRecommend();
@@ -86,6 +88,15 @@ export default {
   },
   // methods：本页面所有的点击事件或者其他函数定义区
   methods: {
+    loadTop() {
+      this.$request.get('/goods/selectTop').then( res => {
+        if (res.code === '200') {
+          this.topData = res.data
+        }else {
+          this.$message.error(res.msg)
+        }
+      })
+    },
     loadRecommend() {
       this.$request.get('/goods/recommend').then(res => {
         if (res.code === '200'){

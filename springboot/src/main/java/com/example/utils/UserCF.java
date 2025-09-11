@@ -55,7 +55,7 @@ public class UserCF {
                 .collect(Collectors.toList());
 
         // 找到最邻看过，但是该用户没看过的商品
-        //neighborItems.removeAll(userItems);
+        neighborItems.removeAll(userItems);
 
         return neighborItems;
     }
