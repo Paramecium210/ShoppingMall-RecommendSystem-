@@ -22,7 +22,8 @@ Order: 3
 Comment: 2
 Only interactions with a weight greater than 1 are included in the RelateDTO, ensuring that stronger signals contribute to the recommendation logic.
 GoodsService.recommend():
-``` List<Collect> allCollect =  collectMapper.selectAll(null);
+```java
+List<Collect> allCollect =  collectMapper.selectAll(null);
         List<Cart> allCart = cartMapper.selectAll(null);
         List<Orders> allOrders = ordersMapper.selectAllOrders(null);
         List<Comment> allComment = commentMapper.selectAll(null);
