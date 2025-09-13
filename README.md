@@ -119,6 +119,70 @@ Map<Integer, List<RelateDTO>> userMap = list.stream()
         return neighborItems;
 ```
 The CoreMath file implements the cosine similarity formula used to measure user similarity. The formula is as follows:
+
 $similarity(A, B) = \frac{A \cdot B}{\|A\| \times \|B\|}$
 
 where 𝐴 and 𝐵 are user interaction vectors. A higher score indicates stronger similarity between users.
+```java
+public static Map<Integer, Double> computeNeighbor(Integer userId, Map<Integer, List<RelateDTO>> userMap, int type) {
+        Map<Integer, Double> result = new HashMap<>();
+
+        List<RelateDTO> userRatings = userMap.get(userId);
+        if (userRatings == null || userRatings.isEmpty()) {
+            return result;
+        }
+
+        // Mapping of {product -> index} for the current user
+        Map<Integer, Double> userItemScore = new HashMap<>();
+        for (RelateDTO r : userRatings) {
+            userItemScore.put(r.getGoodsId(), r.getIndex().doubleValue());
+        }
+
+        // Iterate over other users
+        for (Map.Entry<Integer, List<RelateDTO>> entry : userMap.entrySet()) {
+            Integer otherUserId = entry.getKey();
+            if (Objects.equals(userId, otherUserId)) {
+                continue; // Skip the current user
+
+            }
+
+            Map<Integer, Double> otherItemScore = new HashMap<>();
+            for (RelateDTO r : entry.getValue()) {
+                otherItemScore.put(r.getGoodsId(), r.getIndex().doubleValue());
+            }
+
+           // Calculate cosine similarity
+            double sim = cosineSimilarity(userItemScore, otherItemScore);
+            result.put(otherUserId, sim);
+        }
+
+        return result;
+    }
+
+  
+    private static double cosineSimilarity(Map<Integer, Double> user1Scores,
+                                           Map<Integer, Double> user2Scores) {
+        // Calculate dot product
+        double dotProduct = 0.0;
+        for (Integer itemId : user1Scores.keySet()) {
+            if (user2Scores.containsKey(itemId)) {
+                dotProduct += user1Scores.get(itemId) * user2Scores.get(itemId);
+            }
+        }
+
+        // Calculate vector magnitude
+        double normA = Math.sqrt(user1Scores.values().stream()
+                .mapToDouble(v -> v * v).sum());
+        double normB = Math.sqrt(user2Scores.values().stream()
+                .mapToDouble(v -> v * v).sum());
+
+        if (normA == 0 || normB == 0) {
+            return 0.0;
+        }
+
+        return dotProduct / (normA * normB);
+    }
+```
+## Execution Screenshot
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/225c4946-58ca-45e6-a651-beac966e7786" />
