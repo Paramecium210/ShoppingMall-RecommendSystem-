@@ -79,7 +79,8 @@ First, users are grouped by their IDs.
 Then, cosine similarity is used to calculate the relevance between users.
 The system identifies the most similar users and selects products from their interaction history.
 Products that the current user hasn't viewed are returned as neighborItems.
-```Map<Integer, List<RelateDTO>> userMap = list.stream()
+```java
+Map<Integer, List<RelateDTO>> userMap = list.stream()
                 .collect(Collectors.groupingBy(RelateDTO::getUserId));
 
        // Calculate user similarity using cosine similarity
@@ -116,4 +117,5 @@ Products that the current user hasn't viewed are returned as neighborItems.
         neighborItems.removeAll(userItems);
 
         return neighborItems;
+```
 The CoreMath file implements the cosine similarity formula used to measure user similarity. The formula is as follows: $similarity(𝐴,𝐵)=𝐴⋅𝐵/∥𝐴∥×∥𝐵∥$ where 𝐴 and 𝐵 are user interaction vectors. A higher score indicates stronger similarity between users.
