@@ -118,4 +118,8 @@ Map<Integer, List<RelateDTO>> userMap = list.stream()
 
         return neighborItems;
 ```
-The CoreMath file implements the cosine similarity formula used to measure user similarity. The formula is as follows: $similarity(𝐴,𝐵)=𝐴⋅𝐵/∥𝐴∥×∥𝐵∥$ where 𝐴 and 𝐵 are user interaction vectors. A higher score indicates stronger similarity between users.
+The CoreMath file implements the cosine similarity formula used to measure user similarity. The formula is as follows:
+$$
+similarity(A, B) = \frac{A \cdot B}{\|A\| \times \|B\|}
+$$
+where 𝐴 and 𝐵 are user interaction vectors. A higher score indicates stronger similarity between users.
