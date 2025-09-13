@@ -70,6 +70,7 @@ Account currentUser = TokenUtils.getCurrentUser();
                 .collect(Collectors.toCollection(ArrayList::new));
 
         return recommendResult;
+```
 
 
 In the recommend method, the system uses a UserCF (User-based Collaborative Filtering) approach.
