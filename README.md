@@ -184,5 +184,12 @@ public static Map<Integer, Double> computeNeighbor(Integer userId, Map<Integer, 
     }
 ```
 ## Execution Screenshot
-
+Login
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/225c4946-58ca-45e6-a651-beac966e7786" />
+Home
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16e9f941-51cb-4444-af3a-d9366b2ac105" />
+Recommend Items
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7f0cf2f-d3d8-4ba9-af40-c8f5d322e82c" />
+You can see the details of the UserCF and the GoodsService
+
+
