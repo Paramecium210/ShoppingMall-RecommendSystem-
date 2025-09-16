@@ -193,31 +193,37 @@ The details of GoodsService.recommend().You can see the recommended product info
 
 ## Execution Screenshot
 ### Login
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/225c4946-58ca-45e6-a651-beac966e7786" />
+<img width="1920" height="1025" alt="489214545-225c4946-58ca-45e6-a651-beac966e7786" src="https://github.com/user-attachments/assets/4f42b182-3f4b-4f84-a3a7-76558fd6896b" />
+
 ### Home
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16e9f941-51cb-4444-af3a-d9366b2ac105" />
+<img width="1920" height="1032" alt="489214623-16e9f941-51cb-4444-af3a-d9366b2ac105" src="https://github.com/user-attachments/assets/584e5475-efc5-4044-a823-34f57084c468" />
+
 ### The detail page of the goods and the comments
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c296fcd-3a0e-461c-b067-4f608ab0cbd3" />
+<img width="1920" height="1029" alt="489949311-3c296fcd-3a0e-461c-b067-4f608ab0cbd3" src="https://github.com/user-attachments/assets/4ca3b9d8-11d0-4a58-9eb4-5ccf74a0742d" />
+
 ### The cart, the collections, the addresses and the orders
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86009894-da17-4af3-87f1-29f3cb8f65b7" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bbc8990-38b2-4928-9f79-f34b67577930" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4783d990-1eef-4e20-8b1e-7ca7575b2e6d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae3b61c4-f5db-4bce-8f3c-0715172853a9" />
+<img width="1920" height="1029" alt="489950973-ae3b61c4-f5db-4bce-8f3c-0715172853a9" src="https://github.com/user-attachments/assets/81773734-64ce-4871-be4a-60132ed5f698" />
+<img width="1920" height="1022" alt="489950900-4783d990-1eef-4e20-8b1e-7ca7575b2e6d" src="https://github.com/user-attachments/assets/432ad05d-1a97-4a3a-a3e5-d9bed95a473b" />
+<img width="1920" height="1029" alt="489950379-7bbc8990-38b2-4928-9f79-f34b67577930" src="https://github.com/user-attachments/assets/13642205-4565-47a9-86b5-0601f461f099" />
+<img width="1920" height="1029" alt="489950216-86009894-da17-4af3-87f1-29f3cb8f65b7" src="https://github.com/user-attachments/assets/12bdf026-28d5-43ec-952e-d152651c1f55" />
+
+
 ### The pages of the business
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24a3a8b2-c877-4d4a-bd82-ead4c6fe771f" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e12cf6d3-405c-4170-8cf4-0630563ffa30" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f158ca7-6d87-4311-bb59-44132ff53d0b" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73d28dc6-d744-4ed7-ad7d-92c8790bb8e9" />
+<img width="1920" height="1029" alt="489951630-73d28dc6-d744-4ed7-ad7d-92c8790bb8e9" src="https://github.com/user-attachments/assets/d57a9a31-c2db-4595-a318-55b0ddeca9b4" />
+<img width="1920" height="1025" alt="489951519-6f158ca7-6d87-4311-bb59-44132ff53d0b" src="https://github.com/user-attachments/assets/7c348b2a-36e5-4582-a710-0154cf25db43" />
+<img width="1920" height="1029" alt="489951432-e12cf6d3-405c-4170-8cf4-0630563ffa30" src="https://github.com/user-attachments/assets/aee99131-8ef0-4237-9f21-7e51ea58d910" />
+<img width="1920" height="1029" alt="489951336-24a3a8b2-c877-4d4a-bd82-ead4c6fe771f" src="https://github.com/user-attachments/assets/8560189b-cb2b-494a-8779-e95fab1883c9" />
+
 ### The pages of the admin
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9fabebde-7207-4ba0-9f72-f68dc72311c5" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef1b8523-0157-4fb4-9aaa-498b39434d01" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48e30b9b-c826-4f0a-8e95-5717d3dbf38f" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7085b509-bc6c-4c29-8bd4-644146f40fae" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7fdf0400-7759-4f2f-8661-b7d991d9d328" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/14652426-c7d0-45ca-9a28-cbbf074116a7" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cad26293-eab2-45c0-850b-9f7f739f824f" />
+<img width="1920" height="1025" alt="489953315-cad26293-eab2-45c0-850b-9f7f739f824f" src="https://github.com/user-attachments/assets/e1a80a28-1fe8-47c2-9668-7ac05afba651" />
+<img width="1920" height="1029" alt="489953138-14652426-c7d0-45ca-9a28-cbbf074116a7" src="https://github.com/user-attachments/assets/58e8778f-42af-41a0-aef4-e7990bb2eace" />
+<img width="1920" height="1025" alt="489953031-7fdf0400-7759-4f2f-8661-b7d991d9d328" src="https://github.com/user-attachments/assets/36a73a3d-fa51-4c9d-bbb5-5efcb0139920" />
+<img width="1920" height="1029" alt="489952916-7085b509-bc6c-4c29-8bd4-644146f40fae" src="https://github.com/user-attachments/assets/d02cecd4-be98-4bec-9986-8679c375262f" />
+<img width="1920" height="1022" alt="489952755-ef1b8523-0157-4fb4-9aaa-498b39434d01" src="https://github.com/user-attachments/assets/fb9e5449-87a6-47e0-9a96-6c0662e327c5" />
+<img width="1920" height="1029" alt="489952078-9fabebde-7207-4ba0-9f72-f68dc72311c5" src="https://github.com/user-attachments/assets/079ea640-2381-441c-9e88-1232a6ee0358" />
+
 ### Recommend Items
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7f0cf2f-d3d8-4ba9-af40-c8f5d322e82c" />
+<img width="1920" height="1029" alt="489214640-c7f0cf2f-d3d8-4ba9-af40-c8f5d322e82c" src="https://github.com/user-attachments/assets/f939c6e7-0f2d-4529-9604-3faec59dbd54" />
 
 
 
