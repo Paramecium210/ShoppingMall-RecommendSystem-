@@ -228,19 +228,26 @@ The details of GoodsService.recommend().You can see the recommended product info
 ## Reflection & Future Work
 
 ### Reflection
-During the development of this Java-based recommendation system, I gained a deeper understanding of the core principles of collaborative filtering and its practical implementation. The project helped me strengthen my skills in data preprocessing, similarity calculation (cosine similarity), and result generation.
-However, there are several aspects that could be improved:
+During the development of this Java-based recommendation system, I gained a deeper understanding of the core principles of collaborative filtering and its practical implementation. The project helped me strengthen my skills in data preprocessing, similarity calculation (cosine similarity), and result generation.However, there are several aspects that could be improved:
+
 The dataset used was relatively small and lacked diversity, which limited the performance of the recommendation results.
+
 The evaluation metrics were not comprehensive, making it difficult to objectively measure the effectiveness of the algorithm.
+
 The code implementation was functional but not fully optimized for scalability and maintainability.
+
 
 ### Future Work
 
 Looking ahead, I plan to improve this project in the following ways:
 Dataset Expansion: Incorporate larger and more diverse datasets to make the recommendations more accurate and robust.
+
 Algorithm Enhancement: Experiment with hybrid recommendation approaches by combining collaborative filtering with content-based filtering, and possibly integrate value-based or knowledge-graph-based methods.
+
 Evaluation Metrics: Introduce precision, recall, and F1-score for more reliable performance evaluation.
+
 System Optimization: Refactor the code to improve modularity, efficiency, and scalability, potentially preparing it for integration into a larger application.
+
 User Experience: Develop a simple front-end or visualization module to make the recommendation results more intuitive and user-friendly.
 
 This project has provided me with a valuable foundation in recommendation system design, and I look forward to extending it with more advanced techniques in the future.
