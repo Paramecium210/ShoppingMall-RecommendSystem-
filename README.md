@@ -212,6 +212,7 @@ The details of GoodsService.recommend().You can see the recommended product info
 
 ### Recommend Items
 <img width="1920" height="1029" alt="489214640-c7f0cf2f-d3d8-4ba9-af40-c8f5d322e82c" src="https://github.com/user-attachments/assets/f939c6e7-0f2d-4529-9604-3faec59dbd54" />
+
 ### you can see，for different users，the recommend items are different.
 <img width="554" height="297" alt="图片1" src="https://github.com/user-attachments/assets/cc8d0bfa-c8db-4c9b-ac44-26b47e340c20" />
 
